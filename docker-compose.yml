@@ -1,0 +1,17 @@
+services:
+  collector:
+    build: ./collector
+    volumes:
+      - ./data:/app/../data
+      - ./collector/config.json:/app/config.json
+    working_dir: /app
+
+  web:
+    image: node:22-slim
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./web:/app
+      - ./data:/data
+    working_dir: /app
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"

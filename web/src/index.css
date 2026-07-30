@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+#root {
+  min-height: 100svh;
+}

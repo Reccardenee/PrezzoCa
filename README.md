@@ -1,4 +1,4 @@
-# Diesel Price Tracker
+# Gas Price Tracker
 
 Dashboard statica che monitora giornalmente i prezzi dei carburanti a Sciacca
 tramite l'API ufficiale dell'Osservatorio Prezzi Carburanti del Ministero.

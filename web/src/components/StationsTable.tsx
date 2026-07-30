@@ -70,7 +70,7 @@ export default function StationsTable({ snapshots, onStationDetail }: Props) {
         </thead>
         <tbody>
           {sorted.map((r) => (
-            <tr key={r.name} className="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
+            <tr key={r.station.id} className="border-b border-gray-100 dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
               <td className="px-4 py-3 font-medium text-gray-900 dark:text-gray-100">{r.name}</td>
               <td className="px-4 py-3 text-gray-900 dark:text-gray-100">{r.brand}</td>
               <td className="px-4 py-3 text-gray-900 dark:text-gray-100">{r.diesel_self?.toFixed(3) ?? "-"}</td>

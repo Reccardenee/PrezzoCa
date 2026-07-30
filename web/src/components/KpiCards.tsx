@@ -134,10 +134,10 @@ function KpiCard({ label, value, small, accent, onClick, count, currentIdx, onPr
       <div className="text-xs text-gray-500 dark:text-gray-300 uppercase tracking-wide mb-1">{label}</div>
       <div className={`font-semibold text-gray-900 dark:text-white ${small ? "text-sm truncate" : "text-lg"}`}>{value}</div>
       {multi ? (
-        <div className="flex items-center justify-center gap-2 mt-1.5 text-xs text-gray-500 dark:text-gray-400">
-          <button onClick={(e) => { e.stopPropagation(); onPrev?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 leading-none">&larr;</button>
-          <span className="tabular-nums">{currentIdx! + 1}/{count}</span>
-          <button onClick={(e) => { e.stopPropagation(); onNext?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 leading-none">&rarr;</button>
+        <div className="flex items-center justify-center gap-2 mt-1.5 text-gray-500 dark:text-gray-400">
+          <button onClick={(e) => { e.stopPropagation(); onPrev?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 text-base leading-none">&larr;</button>
+          <span className="tabular-nums text-xs">{currentIdx! + 1}/{count}</span>
+          <button onClick={(e) => { e.stopPropagation(); onNext?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 text-base leading-none">&rarr;</button>
         </div>
       ) : null}
     </Tag>

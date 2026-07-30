@@ -132,7 +132,7 @@ function KpiCard({ label, value, small, accent, onClick, count, currentIdx, onPr
   label: string; value: string; small?: boolean; accent: string; onClick?: () => void;
   count?: number; currentIdx?: number; onPrev?: () => void; onNext?: () => void
 }) {
-  const Tag = onClick ? "button" : "div"
+  const Tag = "button"
   const multi = count && count > 1
   return (
     <Tag onClick={onClick} className={`bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 text-center min-w-[140px] flex-1 max-w-[200px] ${onClick ? "cursor-pointer hover:shadow-md transition-shadow" : ""}`} style={{ borderTopColor: accent, borderTopWidth: 3 }}>

@@ -85,21 +85,18 @@ function FuelKpiRow({ snapshots, fuel, label, onStationDetail, onScrollToTable }
 
   const goCheapest = (idx: number) => {
     setCheapestIdx(idx)
-    onStationDetail(cheapestList[idx].station)
   }
   const prevCheapest = () => goCheapest((cheapestIdx - 1 + cheapestList.length) % cheapestList.length)
   const nextCheapest = () => goCheapest((cheapestIdx + 1) % cheapestList.length)
 
   const goMax = (idx: number) => {
     setMaxIdx(idx)
-    onStationDetail(mostExpensiveList[idx].station)
   }
   const prevMax = () => goMax((maxIdx - 1 + mostExpensiveList.length) % mostExpensiveList.length)
   const nextMax = () => goMax((maxIdx + 1) % mostExpensiveList.length)
 
   const goMin = (idx: number) => {
     setMinIdx(idx)
-    onStationDetail(minStations[idx].station)
   }
   const prevMin = () => {
     if (minStations.length === 0) return

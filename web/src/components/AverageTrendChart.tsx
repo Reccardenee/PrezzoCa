@@ -43,6 +43,7 @@ export default function AverageTrendChart({ snapshots, fuel }: Props) {
         areaStyle: { color: COLORS.green, opacity: 0.12 },
         itemStyle: { color: COLORS.green },
       }],
+      legend: { show: false },
       grid: { left: 60, right: 20, top: 20, bottom: 40 },
     }))
     return () => chart.dispose()

@@ -44,6 +44,7 @@ export default function PriceTrendChart({ snapshots, fuel }: Props) {
           itemStyle: { color: COLORS.primary },
         },
       ],
+      legend: { show: false },
       grid: { left: 60, right: 20, top: 20, bottom: 40 },
     }))
     return () => chart.dispose()

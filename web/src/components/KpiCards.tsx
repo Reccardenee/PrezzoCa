@@ -22,7 +22,7 @@ export default function KpiCards({ snapshots, onStationDetail, onScrollToTable }
               <FuelKpiRow snapshots={snapshots} fuel="diesel_self" label={FUEL_LABELS.diesel_self} onStationDetail={onStationDetail} />
               <FuelKpiRow snapshots={snapshots} fuel="gasoline_self" label={FUEL_LABELS.gasoline_self} onStationDetail={onStationDetail} />
             </div>
-            <div className="flex items-center justify-center lg:items-start">
+            <div className="flex items-center justify-center lg:items-center">
               <KpiCard label="Distributori" value={`${totalStations}`} accent={COLORS.violet} onClick={onScrollToTable} />
             </div>
           </div>

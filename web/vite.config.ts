@@ -26,6 +26,6 @@ function dataPlugin(): { name: string; configureServer(server: { middlewares: Co
 }
 
 export default defineConfig({
-  base: '/PrezziCa/',
+  base: '/PrezzoCa/',
   plugins: [react(), tailwindcss(), dataPlugin()],
 })

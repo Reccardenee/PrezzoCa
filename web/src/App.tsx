@@ -111,6 +111,10 @@ export default function App() {
           onDateRangeChange={setDateRange}
         />
 
+        <div id="tabella-distributori" className="mb-6">
+          <StationsTable snapshots={snapshots} onStationDetail={setDetailStation} />
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
           <PriceTrendChart snapshots={filtered} fuel={fuel} />
           <AverageTrendChart snapshots={filtered} fuel={fuel} />
@@ -137,10 +141,6 @@ export default function App() {
 
         <div className="mb-6">
           <CityDiffChart snapshots={filtered} fuel={fuel} />
-        </div>
-
-        <div id="tabella-distributori" className="mb-6">
-          <StationsTable snapshots={snapshots} onStationDetail={setDetailStation} />
         </div>
 
         {detailStation && <StationDetail station={detailStation} onClose={() => setDetailStation(null)} />}

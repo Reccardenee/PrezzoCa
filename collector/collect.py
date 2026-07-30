@@ -111,7 +111,13 @@ def save_snapshot(existing, snapshot):
     os.makedirs(DATA_DIR, exist_ok=True)
     year = snapshot["timestamp"][:4]
     path = os.path.join(DATA_DIR, f"{year}.json")
-    existing.append(snapshot)
+    snapshot_date = snapshot["timestamp"][:10]
+    for i, s in enumerate(existing):
+        if s["timestamp"][:10] == snapshot_date:
+            existing[i] = snapshot
+            break
+    else:
+        existing.append(snapshot)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(existing, f, indent=2, ensure_ascii=False)
 

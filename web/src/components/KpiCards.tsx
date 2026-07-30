@@ -83,21 +83,31 @@ function FuelKpiRow({ snapshots, fuel, label, onStationDetail, onScrollToTable }
 
   const cheapest = cheapestList[cheapestIdx % cheapestList.length]
 
-  const cycleCheapest = () => {
-    const next = (cheapestIdx + 1) % cheapestList.length
-    setCheapestIdx(next)
-    onStationDetail(cheapestList[next].station)
+  const goCheapest = (idx: number) => {
+    setCheapestIdx(idx)
+    onStationDetail(cheapestList[idx].station)
   }
-  const cycleMax = () => {
-    const next = (maxIdx + 1) % mostExpensiveList.length
-    setMaxIdx(next)
-    onStationDetail(mostExpensiveList[next].station)
+  const prevCheapest = () => goCheapest((cheapestIdx - 1 + cheapestList.length) % cheapestList.length)
+  const nextCheapest = () => goCheapest((cheapestIdx + 1) % cheapestList.length)
+
+  const goMax = (idx: number) => {
+    setMaxIdx(idx)
+    onStationDetail(mostExpensiveList[idx].station)
   }
-  const cycleMin = () => {
+  const prevMax = () => goMax((maxIdx - 1 + mostExpensiveList.length) % mostExpensiveList.length)
+  const nextMax = () => goMax((maxIdx + 1) % mostExpensiveList.length)
+
+  const goMin = (idx: number) => {
+    setMinIdx(idx)
+    onStationDetail(minStations[idx].station)
+  }
+  const prevMin = () => {
     if (minStations.length === 0) return
-    const next = (minIdx + 1) % minStations.length
-    setMinIdx(next)
-    onStationDetail(minStations[next].station)
+    goMin((minIdx - 1 + minStations.length) % minStations.length)
+  }
+  const nextMin = () => {
+    if (minStations.length === 0) return
+    goMin((minIdx + 1) % minStations.length)
   }
 
   const accent = fuel === "diesel_self" ? COLORS.primary : COLORS.amber
@@ -106,22 +116,33 @@ function FuelKpiRow({ snapshots, fuel, label, onStationDetail, onScrollToTable }
     <div>
       <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2 text-center">{label}</div>
       <div className="flex flex-wrap justify-center gap-4">
-        <KpiCard label={cheapestList.length > 1 ? `Distrib. + econ. (1/${cheapestList.length})` : "Distrib. + economico"} value={cheapest.station.label || cheapest.station.name} small accent={accent} onClick={cycleCheapest} clickable />
-        <KpiCard label={minStations.length > 1 ? `Minimo (1/${minStations.length})` : "Minimo"} value={`${min.toFixed(3)} \u20AC/L`} accent={accent} onClick={cycleMin} clickable />
-        <KpiCard label={mostExpensiveList.length > 1 ? `Massimo (1/${mostExpensiveList.length})` : "Massimo"} value={`${max.toFixed(3)} \u20AC/L`} accent={COLORS.red} onClick={cycleMax} clickable />
+        <KpiCard label="Distrib. + economico" value={cheapest.station.label || cheapest.station.name} small accent={accent} onClick={() => onStationDetail(cheapest.station)} count={cheapestList.length} currentIdx={cheapestIdx} onPrev={prevCheapest} onNext={nextCheapest} />
+        <KpiCard label="Minimo" value={`${min.toFixed(3)} \u20AC/L`} accent={accent} onClick={() => onStationDetail(minStations[minIdx % minStations.length]?.station)} count={minStations.length} currentIdx={minIdx} onPrev={prevMin} onNext={nextMin} />
+        <KpiCard label="Massimo" value={`${max.toFixed(3)} \u20AC/L`} accent={COLORS.red} onClick={() => onStationDetail(mostExpensiveList[maxIdx % mostExpensiveList.length].station)} count={mostExpensiveList.length} currentIdx={maxIdx} onPrev={prevMax} onNext={nextMax} />
         <KpiCard label="Medio" value={`${avg.toFixed(3)} \u20AC/L`} accent={accent} />
-        <KpiCard label="Distributori" value={`${latestPrices.length}`} accent={COLORS.violet} onClick={onScrollToTable} clickable />
+        <KpiCard label="Distributori" value={`${latestPrices.length}`} accent={COLORS.violet} onClick={onScrollToTable} />
       </div>
     </div>
   )
 }
 
-function KpiCard({ label, value, small, accent, onClick, clickable }: { label: string; value: string; small?: boolean; accent: string; onClick?: () => void; clickable?: boolean }) {
+function KpiCard({ label, value, small, accent, onClick, count, currentIdx, onPrev, onNext }: {
+  label: string; value: string; small?: boolean; accent: string; onClick?: () => void;
+  count?: number; currentIdx?: number; onPrev?: () => void; onNext?: () => void
+}) {
   const Tag = onClick ? "button" : "div"
+  const multi = count && count > 1
   return (
-    <Tag onClick={onClick} className={`bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 text-center min-w-[140px] flex-1 max-w-[200px] ${clickable ? "cursor-pointer hover:shadow-md transition-shadow" : ""}`} style={{ borderTopColor: accent, borderTopWidth: 3 }}>
+    <Tag onClick={onClick} className={`bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 text-center min-w-[140px] flex-1 max-w-[200px] ${onClick ? "cursor-pointer hover:shadow-md transition-shadow" : ""}`} style={{ borderTopColor: accent, borderTopWidth: 3 }}>
       <div className="text-xs text-gray-500 dark:text-gray-300 uppercase tracking-wide mb-1">{label}</div>
       <div className={`font-semibold text-gray-900 dark:text-white ${small ? "text-sm truncate" : "text-lg"}`}>{value}</div>
+      {multi ? (
+        <div className="flex items-center justify-center gap-2 mt-1.5 text-xs text-gray-500 dark:text-gray-400">
+          <button onClick={(e) => { e.stopPropagation(); onPrev?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 leading-none">&larr;</button>
+          <span className="tabular-nums">{currentIdx! + 1}/{count}</span>
+          <button onClick={(e) => { e.stopPropagation(); onNext?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 leading-none">&rarr;</button>
+        </div>
+      ) : null}
     </Tag>
   )
 }

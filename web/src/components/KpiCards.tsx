@@ -83,28 +83,35 @@ function FuelKpiRow({ snapshots, fuel, label, onStationDetail, onScrollToTable }
 
   const cheapest = cheapestList[cheapestIdx % cheapestList.length]
 
-  const goCheapest = (idx: number) => {
-    setCheapestIdx(idx)
+  const cycleLinked = (id: number) => {
+    const ci = cheapestList.findIndex(s => s.station.id === id)
+    if (ci !== -1) setCheapestIdx(ci)
+    const mi = minStations.findIndex(s => s.station.id === id)
+    if (mi !== -1) setMinIdx(mi)
   }
-  const prevCheapest = () => goCheapest((cheapestIdx - 1 + cheapestList.length) % cheapestList.length)
-  const nextCheapest = () => goCheapest((cheapestIdx + 1) % cheapestList.length)
 
-  const goMax = (idx: number) => {
-    setMaxIdx(idx)
+  const prevCheapest = () => {
+    const next = (cheapestIdx - 1 + cheapestList.length) % cheapestList.length
+    cycleLinked(cheapestList[next].station.id)
   }
+  const nextCheapest = () => {
+    const next = (cheapestIdx + 1) % cheapestList.length
+    cycleLinked(cheapestList[next].station.id)
+  }
+
+  const goMax = (idx: number) => setMaxIdx(idx)
   const prevMax = () => goMax((maxIdx - 1 + mostExpensiveList.length) % mostExpensiveList.length)
   const nextMax = () => goMax((maxIdx + 1) % mostExpensiveList.length)
 
-  const goMin = (idx: number) => {
-    setMinIdx(idx)
-  }
   const prevMin = () => {
     if (minStations.length === 0) return
-    goMin((minIdx - 1 + minStations.length) % minStations.length)
+    const next = (minIdx - 1 + minStations.length) % minStations.length
+    cycleLinked(minStations[next].station.id)
   }
   const nextMin = () => {
     if (minStations.length === 0) return
-    goMin((minIdx + 1) % minStations.length)
+    const next = (minIdx + 1) % minStations.length
+    cycleLinked(minStations[next].station.id)
   }
 
   const accent = fuel === "diesel_self" ? COLORS.primary : COLORS.amber
@@ -135,9 +142,9 @@ function KpiCard({ label, value, small, accent, onClick, count, currentIdx, onPr
       <div className={`font-semibold text-gray-900 dark:text-white ${small ? "text-sm truncate" : "text-lg"}`}>{value}</div>
       {multi ? (
         <div className="flex items-center justify-center gap-2 mt-1.5 text-gray-500 dark:text-gray-400">
-          <button onClick={(e) => { e.stopPropagation(); onPrev?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 text-base leading-none">&larr;</button>
+          <button onClick={(e) => { e.stopPropagation(); onPrev?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 text-xl px-1 leading-none">&larr;</button>
           <span className="tabular-nums text-xs">{currentIdx! + 1}/{count}</span>
-          <button onClick={(e) => { e.stopPropagation(); onNext?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 text-base leading-none">&rarr;</button>
+          <button onClick={(e) => { e.stopPropagation(); onNext?.() }} className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 text-xl px-1 leading-none">&rarr;</button>
         </div>
       ) : null}
     </Tag>

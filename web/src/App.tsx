@@ -101,7 +101,7 @@ export default function App() {
           </button>
         </header>
 
-        <KpiCards snapshots={snapshots} onStationDetail={setDetailStation} onScrollToTable={() => document.getElementById("tabella-distributori")?.scrollIntoView({ behavior: "smooth" })} />
+        <KpiCards snapshots={snapshots} onStationDetail={setDetailStation} />
         <Filters
           fuel={fuel} station={station} brand={brand} search={search}
           dateRange={dateRange} minDate={minDate} maxDate={maxDate}

@@ -6,25 +6,17 @@ import { COLORS } from "../theme"
 interface Props {
   snapshots: Snapshot[]
   onStationDetail: (st: Station) => void
-  onScrollToTable: () => void
 }
 
-export default function KpiCards({ snapshots, onStationDetail, onScrollToTable }: Props) {
-  const totalStations = snapshots.length > 0 ? snapshots[snapshots.length - 1].stations.length : 0
-
+export default function KpiCards({ snapshots, onStationDetail }: Props) {
   return (
     <div className="space-y-6 mb-6">
       {snapshots.length > 0 ? (
         <>
           <SnapshotDate timestamp={snapshots[snapshots.length - 1].timestamp} />
-          <div className="space-y-6 lg:grid lg:grid-cols-[1fr_auto] lg:gap-4 lg:space-y-0">
-            <div className="space-y-6">
-              <FuelKpiRow snapshots={snapshots} fuel="diesel_self" label={FUEL_LABELS.diesel_self} onStationDetail={onStationDetail} />
-              <FuelKpiRow snapshots={snapshots} fuel="gasoline_self" label={FUEL_LABELS.gasoline_self} onStationDetail={onStationDetail} />
-            </div>
-            <div className="flex items-center justify-center lg:items-center">
-              <KpiCard label="Distributori" value={`${totalStations}`} accent={COLORS.violet} onClick={onScrollToTable} />
-            </div>
+          <div className="space-y-6">
+            <FuelKpiRow snapshots={snapshots} fuel="diesel_self" label={FUEL_LABELS.diesel_self} onStationDetail={onStationDetail} />
+            <FuelKpiRow snapshots={snapshots} fuel="gasoline_self" label={FUEL_LABELS.gasoline_self} onStationDetail={onStationDetail} />
           </div>
         </>
       ) : null}

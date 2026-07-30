@@ -37,9 +37,16 @@ export default function StationsTable({ snapshots, onStationDetail }: Props) {
   }))
 
   const sorted = [...rows].sort((a, b) => {
-    const av = a[sortKey] ?? ""
-    const bv = b[sortKey] ?? ""
-    const cmp = typeof av === "number" ? av - (bv as number) : String(av).localeCompare(String(bv))
+    const av = a[sortKey]
+    const bv = b[sortKey]
+
+    if (av === null && bv === null) return 0
+    if (av === null) return 1
+    if (bv === null) return -1
+
+    const cmp = typeof av === "number"
+      ? (av as number) - (bv as number)
+      : String(av).localeCompare(String(bv))
     return sortDir === "asc" ? cmp : -cmp
   })
 

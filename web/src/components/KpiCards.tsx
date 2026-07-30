@@ -9,17 +9,23 @@ interface Props {
   onScrollToTable: () => void
 }
 
-const FUELS: FuelType[] = ["diesel_self", "gasoline_self"]
-
 export default function KpiCards({ snapshots, onStationDetail, onScrollToTable }: Props) {
+  const totalStations = snapshots.length > 0 ? snapshots[snapshots.length - 1].stations.length : 0
+
   return (
     <div className="space-y-6 mb-6">
       {snapshots.length > 0 ? (
         <>
           <SnapshotDate timestamp={snapshots[snapshots.length - 1].timestamp} />
-          {FUELS.map((f) => (
-            <FuelKpiRow key={f} snapshots={snapshots} fuel={f} label={FUEL_LABELS[f]} onStationDetail={onStationDetail} onScrollToTable={onScrollToTable} />
-          ))}
+          <div className="space-y-6 lg:grid lg:grid-cols-[1fr_auto] lg:gap-4 lg:space-y-0">
+            <div className="space-y-6">
+              <FuelKpiRow snapshots={snapshots} fuel="diesel_self" label={FUEL_LABELS.diesel_self} onStationDetail={onStationDetail} />
+              <FuelKpiRow snapshots={snapshots} fuel="gasoline_self" label={FUEL_LABELS.gasoline_self} onStationDetail={onStationDetail} />
+            </div>
+            <div className="flex items-center justify-center lg:items-start">
+              <KpiCard label="Distributori" value={`${totalStations}`} accent={COLORS.violet} onClick={onScrollToTable} />
+            </div>
+          </div>
         </>
       ) : null}
     </div>
@@ -34,8 +40,8 @@ function SnapshotDate({ timestamp }: { timestamp: string }) {
   )
 }
 
-function FuelKpiRow({ snapshots, fuel, label, onStationDetail, onScrollToTable }: {
-  snapshots: Snapshot[]; fuel: FuelType; label: string; onStationDetail: (st: Station) => void; onScrollToTable: () => void
+function FuelKpiRow({ snapshots, fuel, label, onStationDetail }: {
+  snapshots: Snapshot[]; fuel: FuelType; label: string; onStationDetail: (st: Station) => void
 }) {
   const [cheapestIdx, setCheapestIdx] = useState(0)
   const [maxIdx, setMaxIdx] = useState(0)
@@ -124,7 +130,7 @@ function FuelKpiRow({ snapshots, fuel, label, onStationDetail, onScrollToTable }
         <KpiCard label="Minimo" value={`${min.toFixed(3)} \u20AC/L`} accent={accent} onClick={() => onStationDetail(minStations[minIdx % minStations.length]?.station)} count={minStations.length} currentIdx={minIdx} onPrev={prevMin} onNext={nextMin} />
         <KpiCard label="Massimo" value={`${max.toFixed(3)} \u20AC/L`} accent={COLORS.red} onClick={() => onStationDetail(mostExpensiveList[maxIdx % mostExpensiveList.length].station)} count={mostExpensiveList.length} currentIdx={maxIdx} onPrev={prevMax} onNext={nextMax} />
         <KpiCard label="Medio" value={`${avg.toFixed(3)} \u20AC/L`} accent={accent} />
-        <KpiCard label="Distributori" value={`${latestPrices.length}`} accent={COLORS.violet} onClick={onScrollToTable} />
+
       </div>
     </div>
   )

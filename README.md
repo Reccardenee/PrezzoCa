@@ -9,7 +9,6 @@ tramite l'API ufficiale dell'Osservatorio Prezzi Carburanti del Ministero.
 - **Dati** — Snapshot JSON versionati con Git (un file per anno)
 - **Frontend** — React + Vite + TypeScript + TailwindCSS + ECharts
 - **Hosting** — GitHub Pages
-- **Notifiche** — Discord Webhook
 
 ## Struttura
 

@@ -1,4 +1,4 @@
-# AGENTS.md — PrezziCa
+# AGENTS.md
 
 Fuel price tracker dashboard for Sciacca, Italy. Static site (GitHub Pages) + Python collector (GitHub Actions cron).
 
@@ -49,10 +49,8 @@ Do NOT use `<ReactECharts>` component — none of the existing components use it
 
 ## Collector (Python)
 
-- Runs in CI via GitHub Actions cron (`0 8 * * *` UTC) + manual dispatch.
+- Runs in CI via GitHub Actions cron (`0 6,12,18 * * *` UTC) + manual dispatch.
 - Calls detail endpoint (`/ospzApi/registry/servicearea/{id}`) for each station — slow but enriches data.
-- Event checking only monitors `fuelId=2` + `isSelf=true` (diesel self).
-- Discord notifications require `DISCORD_WEBHOOK` env var (GitHub secret).
 - Backfill scripts in `collector/` fix missing data in historical JSON snapshots.
 
 ## Tests
@@ -61,7 +59,9 @@ None. No test files, runners, or scripts exist.
 
 ## CI/CD
 
-Two sequential jobs: `collect` (Python 3.12) then `deploy` (Node 22, `npm ci` + `npm run build`). Auto-commits data changes as `"PrezziCa Bot" <bot@prezzica.it>`.
+Two workflows:
+- **`collect.yml`** — runs Python collector (3x/day at 06/12/18 UTC). Auto-commits data changes.
+- **`deploy.yml`** — builds and deploys to GitHub Pages. Triggers on push to `master` + manual dispatch.
 
 ## Docker
 

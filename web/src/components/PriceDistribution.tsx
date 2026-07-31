@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react"
 import * as echarts from "echarts"
 import type { Snapshot, FuelType } from "../types"
-import { getFuelPrice } from "../api"
+import { getFuelPrice, FUEL_LABELS } from "../api"
 import { useDarkMode, chartOptions, COLORS, valueFormatter } from "../theme"
 
 interface Props {
@@ -57,7 +57,7 @@ export default function PriceDistribution({ snapshots, fuel, stationId }: Props)
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
-      <h3 className="text-sm font-semibold mb-2 text-gray-900 dark:text-white">Distribuzione prezzi</h3>
+      <h3 className="text-sm font-semibold mb-2 text-gray-900 dark:text-white">Distribuzione prezzi — {FUEL_LABELS[fuel]}</h3>
       <div ref={ref} style={{ height: 300 }} />
     </div>
   )

@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react"
 import * as echarts from "echarts"
 import type { Snapshot, FuelType } from "../types"
-import { getFuelPrice } from "../api"
+import { getFuelPrice, FUEL_LABELS } from "../api"
 import { useDarkMode, chartOptions, COLORS } from "../theme"
 
 interface Props {
@@ -45,7 +45,7 @@ export default function PriceChangesChart({ snapshots, fuel }: Props) {
   if (snapshots.length < 2) return null
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
-      <h3 className="text-sm font-semibold mb-2 text-gray-900 dark:text-white">Variazioni prezzi</h3>
+      <h3 className="text-sm font-semibold mb-2 text-gray-900 dark:text-white">Variazioni prezzi — {FUEL_LABELS[fuel]}</h3>
       <div ref={ref} style={{ height: 250 }} />
     </div>
   )

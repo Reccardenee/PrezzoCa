@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react"
+import { useRef, useEffect, useMemo } from "react"
 import * as echarts from "echarts"
 import type { Snapshot, FuelType } from "../types"
 import { getFuelPrice, FUEL_LABELS } from "../api"
@@ -13,9 +13,7 @@ export default function StationMultiLine({ snapshots, fuel }: Props) {
   const ref = useRef<HTMLDivElement>(null)
   const dark = useDarkMode()
 
-  useEffect(() => {
-    if (!ref.current || snapshots.length === 0) return
-
+  const { dates, series } = useMemo(() => {
     const stationSeries = new Map<string, { date: string; price: number }[]>()
     for (const s of snapshots) {
       const date = s.timestamp.slice(0, 10)
@@ -43,6 +41,11 @@ export default function StationMultiLine({ snapshots, fuel }: Props) {
           itemStyle: { color: COLORS.palette[i % COLORS.palette.length] },
         }
       })
+    return { dates, series }
+  }, [snapshots, fuel])
+
+  useEffect(() => {
+    if (!ref.current || series.length === 0) return
 
     const chart = echarts.init(ref.current)
     chart.setOption(chartOptions(dark, {
@@ -54,12 +57,18 @@ export default function StationMultiLine({ snapshots, fuel }: Props) {
       grid: { left: 60, right: 20, top: 20, bottom: 60 },
     }))
     return () => chart.dispose()
-  }, [snapshots, fuel, dark])
+  }, [dates, series, dark])
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
       <h3 className="text-sm font-semibold mb-2 text-gray-900 dark:text-white">Prezzi per distributore — {FUEL_LABELS[fuel]}</h3>
-      <div ref={ref} style={{ height: 350 }} />
+      {series.length === 0 ? (
+        <div className="flex items-center justify-center" style={{ height: 350 }}>
+          <p className="text-sm text-gray-500 dark:text-gray-400">Dati insufficienti: servono almeno 2 rilevazioni per distributore</p>
+        </div>
+      ) : (
+        <div ref={ref} style={{ height: 350 }} />
+      )}
     </div>
   )
 }

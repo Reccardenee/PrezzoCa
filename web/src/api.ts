@@ -17,7 +17,7 @@ export const FUEL_LABELS: Record<FuelType, string> = {
 const DATA_URL = import.meta.env.BASE_URL + "data"
 
 async function fetchJSON(path: string): Promise<unknown> {
-  const resp = await fetch(path)
+  const resp = await fetch(path, { cache: "no-store" })
   if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${path}`)
   return resp.json()
 }

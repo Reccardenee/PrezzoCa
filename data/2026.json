@@ -761,7 +761,7 @@
     ]
   },
   {
-    "timestamp": "2026-07-31T13:48:45Z",
+    "timestamp": "2026-07-31T19:14:48Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -1344,25 +1344,25 @@
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.049,
+            "price": 2.039,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.049,
+            "price": 2.039,
             "isSelf": true
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.259,
+            "price": 2.239,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.259,
+            "price": 2.239,
             "isSelf": true
           }
         ],

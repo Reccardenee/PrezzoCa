@@ -26,7 +26,6 @@ export default function App() {
   const [station, setStation] = useState("")
   const [brand, setBrand] = useState("")
   const [search, setSearch] = useState("")
-  const [dateRange, setDateRange] = useState<[string, string]>(["", ""])
   const [detailStation, setDetailStation] = useState<Station | null>(null)
   const [showScroll, setShowScroll] = useState(false)
 
@@ -50,9 +49,6 @@ export default function App() {
       .sort((a, b) => a.name.localeCompare(b.name))
   }, [snapshots])
 
-  const minDate = snapshots.length > 0 ? snapshots[0].timestamp.slice(0, 10) : ""
-  const maxDate = snapshots.length > 0 ? snapshots[snapshots.length - 1].timestamp.slice(0, 10) : ""
-
   const labels = useMemo(() =>
     snapshots.length > 0
       ? buildLabels(snapshots[snapshots.length - 1].stations)
@@ -62,12 +58,6 @@ export default function App() {
   const filtered = useMemo(() => {
     if (snapshots.length === 0) return []
     return snapshots
-      .filter((s) => {
-        const d = s.timestamp.slice(0, 10)
-        if (dateRange[0] && d < dateRange[0]) return false
-        if (dateRange[1] && d > dateRange[1]) return false
-        return true
-      })
       .map((s) => ({
         ...s,
         stations: s.stations
@@ -79,7 +69,7 @@ export default function App() {
           })
           .map((st) => ({ ...st, label: labels.get(String(st.id)) || st.name })),
       })).filter((s) => s.stations.length > 0)
-  }, [snapshots, station, brand, search, dateRange, labels])
+  }, [snapshots, station, brand, search, labels])
 
   if (loading) return <div className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900"><p className="text-lg text-gray-600 dark:text-gray-300">Caricamento dati...</p></div>
   if (error) return <div className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900"><p className="text-red-500">Errore: {error}</p></div>
@@ -105,10 +95,8 @@ export default function App() {
         <KpiCards snapshots={snapshots} onStationDetail={setDetailStation} />
         <Filters
           station={station} brand={brand} search={search}
-          dateRange={dateRange} minDate={minDate} maxDate={maxDate}
           brands={brands} stations={stations} stationLabels={labels}
           onStationChange={setStation} onBrandChange={setBrand} onSearchChange={setSearch}
-          onDateRangeChange={setDateRange}
         />
 
         <div id="tabella-distributori" className="mb-6">

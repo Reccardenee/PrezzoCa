@@ -17,6 +17,7 @@ import PriceChangesChart from "./components/PriceChangesChart"
 import CityDiffChart from "./components/CityDiffChart"
 import StationsTable from "./components/StationsTable"
 import StationDetail from "./components/StationDetail"
+import FuelSelector from "./components/FuelSelector"
 
 export default function App() {
   const { snapshots, loading, error } = useData()
@@ -103,10 +104,9 @@ export default function App() {
 
         <KpiCards snapshots={snapshots} onStationDetail={setDetailStation} />
         <Filters
-          fuel={fuel} station={station} brand={brand} search={search}
+          station={station} brand={brand} search={search}
           dateRange={dateRange} minDate={minDate} maxDate={maxDate}
           brands={brands} stations={stations} stationLabels={labels}
-          onFuelChange={setFuel}
           onStationChange={setStation} onBrandChange={setBrand} onSearchChange={setSearch}
           onDateRangeChange={setDateRange}
         />
@@ -114,6 +114,8 @@ export default function App() {
         <div id="tabella-distributori" className="mb-6">
           <StationsTable snapshots={snapshots} onStationDetail={setDetailStation} />
         </div>
+
+        <FuelSelector fuel={fuel} onChange={setFuel} />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
           <PriceTrendChart snapshots={filtered} fuel={fuel} />

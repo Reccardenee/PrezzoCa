@@ -1,6 +1,4 @@
-import type { FuelType } from "../types"
 import type { ReactNode } from "react"
-import { FUEL_LABELS } from "../api"
 
 interface StationItem {
   id: number
@@ -8,7 +6,6 @@ interface StationItem {
 }
 
 interface Props {
-  fuel: FuelType
   station: string
   brand: string
   search: string
@@ -18,7 +15,6 @@ interface Props {
   brands: string[]
   stations: StationItem[]
   stationLabels: Map<string, string>
-  onFuelChange: (v: FuelType) => void
   onStationChange: (v: string) => void
   onBrandChange: (v: string) => void
   onSearchChange: (v: string) => void
@@ -26,9 +22,9 @@ interface Props {
 }
 
 export default function Filters({
-  fuel, station, brand, search, dateRange, minDate, maxDate,
+  station, brand, search, dateRange, minDate, maxDate,
   brands, stations, stationLabels,
-  onFuelChange, onStationChange, onBrandChange, onSearchChange, onDateRangeChange,
+  onStationChange, onBrandChange, onSearchChange, onDateRangeChange,
 }: Props) {
   const stationOpts = stations.map((st) => ({
     value: st.name,
@@ -37,12 +33,6 @@ export default function Filters({
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 mb-6">
       <div className="flex flex-wrap gap-3 items-end">
-        <Select label="Carburante" value={fuel} onChange={onFuelChange}>
-          <option value="diesel_self">{FUEL_LABELS.diesel_self}</option>
-          <option value="diesel_servito">{FUEL_LABELS.diesel_servito}</option>
-          <option value="gasoline_self">{FUEL_LABELS.gasoline_self}</option>
-          <option value="gasoline_servito">{FUEL_LABELS.gasoline_servito}</option>
-        </Select>
       <Select label="Distributore" value={station} onChange={onStationChange}>
         <option value="">Tutti</option>
         {stationOpts.map((o) => <option key={o.label} value={o.value}>{o.label}</option>)}

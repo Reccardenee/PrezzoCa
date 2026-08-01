@@ -112,7 +112,7 @@ export default function App() {
         />
 
         <div id="tabella-distributori" className="mb-6">
-          <StationsTable snapshots={snapshots} onStationDetail={setDetailStation} />
+          <StationsTable snapshots={filtered} onStationDetail={setDetailStation} />
         </div>
 
         <FuelSelector fuel={fuel} onChange={setFuel} />

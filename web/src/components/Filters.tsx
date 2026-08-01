@@ -32,7 +32,7 @@ export default function Filters({
   }))
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 mb-6">
-      <div className="flex flex-wrap gap-3 items-end">
+      <div className="flex flex-wrap gap-3 items-end justify-center">
       <Select label="Distributore" value={station} onChange={onStationChange}>
         <option value="">Tutti</option>
         {stationOpts.map((o) => <option key={o.label} value={o.value}>{o.label}</option>)}

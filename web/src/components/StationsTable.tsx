@@ -22,7 +22,14 @@ export default function StationsTable({ snapshots, onStationDetail }: Props) {
   const [sortKey, setSortKey] = useState<keyof Row>("name")
   const [sortDir, setSortDir] = useState<"asc" | "desc">("asc")
 
-  if (snapshots.length === 0) return null
+  if (snapshots.length === 0) {
+    return (
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
+        <h3 className="text-sm font-semibold mb-3 text-gray-900 dark:text-white">Tutti i distributori</h3>
+        <p className="text-sm text-gray-500 dark:text-gray-400">Nessun risultato per i filtri selezionati</p>
+      </div>
+    )
+  }
   const latest = snapshots[snapshots.length - 1]
 
   const rows: Row[] = latest.stations.map((st) => ({

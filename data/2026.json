@@ -3805,7 +3805,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-04T13:54:32Z",
+    "timestamp": "2026-08-04T19:22:21Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -3863,13 +3863,13 @@
         "openingHours": {}
       },
       {
-        "id": 42190,
+        "id": 42114,
         "name": "Eni",
         "brand": "AgipEni",
-        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
-        "lat": 37.50799022288548,
-        "lng": 13.07384071474985,
-        "insertDate": "2026-08-04T07:10:48+02:00",
+        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
+        "lat": 37.51571907201272,
+        "lng": 13.077489719049026,
+        "insertDate": "2026-08-04T20:02:09+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -3916,13 +3916,13 @@
         "openingHours": {}
       },
       {
-        "id": 42114,
+        "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
-        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
-        "lat": 37.51571907201272,
-        "lng": 13.077489719049026,
-        "insertDate": "2026-08-04T07:02:09+02:00",
+        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
+        "lat": 37.50799022288548,
+        "lng": 13.07384071474985,
+        "insertDate": "2026-08-04T07:10:48+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -3957,7 +3957,7 @@
           {
             "fuelId": 20,
             "name": "Blue Diesel",
-            "price": 2.199,
+            "price": 2.179,
             "isSelf": true
           }
         ],
@@ -4198,30 +4198,30 @@
         "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
         "lat": 37.51030544905536,
         "lng": 13.066942669110176,
-        "insertDate": "2026-07-31T14:10:19+02:00",
+        "insertDate": "2026-08-04T19:19:37+02:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.039,
+            "price": 2.019,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.039,
+            "price": 2.019,
             "isSelf": true
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.239,
+            "price": 2.189,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.239,
+            "price": 2.189,
             "isSelf": true
           }
         ],

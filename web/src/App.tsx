@@ -78,7 +78,7 @@ export default function App() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 p-4 md:p-6">
       <div className="max-w-7xl mx-auto">
         <header className="mb-6 flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-emerald-500 flex items-center justify-center text-white text-lg font-bold shadow-sm">P</div>
+          <span className="text-2xl" aria-hidden="true">⛽</span>
           <div className="flex-1">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Prezzi Carburanti</h1>
             <p className="text-sm text-gray-500 dark:text-gray-400">Sciacca</p>
@@ -146,8 +146,6 @@ export default function App() {
           <p>&copy; {new Date().getFullYear()} Prezzi Carburanti Sciacca</p>
           <p>Dati raccolti automaticamente dal portale del Ministero dello Sviluppo Economico, aggiornati 3 volte al giorno</p>
           <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
-            <a href="https://reccardenee.github.io/PrezzoCa/" target="_blank" rel="noopener noreferrer" className="hover:underline">Sito</a>
-            <span aria-hidden="true">&middot;</span>
             <a href="https://github.com/Reccardenee/PrezzoCa" target="_blank" rel="noopener noreferrer" className="hover:underline">Repository</a>
             <span aria-hidden="true">&middot;</span>
             <a href="https://github.com/Reccardenee" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>

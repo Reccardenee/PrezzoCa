@@ -144,7 +144,7 @@ export default function App() {
 
         <footer className="mt-8 py-6 border-t border-gray-200 dark:border-gray-700 text-center text-sm text-gray-500 dark:text-gray-400 space-y-1">
           <p>&copy; {new Date().getFullYear()} Prezzi Carburanti Sciacca</p>
-          <p>Dati raccolti automaticamente dal portale del Ministero dello Sviluppo Economico, aggiornati 3 volte al giorno</p>
+          <p>Dati raccolti automaticamente dal portale del MISE</p>
           <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
             <a href="https://github.com/Reccardenee/PrezzoCa" target="_blank" rel="noopener noreferrer" className="hover:underline">Repository</a>
             <span aria-hidden="true">&middot;</span>

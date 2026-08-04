@@ -27,7 +27,7 @@ export default function KpiCards({ snapshots, onStationDetail }: Props) {
 function SnapshotDate({ timestamp }: { timestamp: string }) {
   return (
     <div className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide text-center">
-      Ultimo aggiornamento: {new Date(timestamp).toLocaleDateString("it", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
+      Ultimo aggiornamento: {new Date(timestamp).toLocaleDateString("it", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}, alle {new Date(timestamp).toLocaleTimeString("it", { hour: "2-digit", minute: "2-digit" })}
     </div>
   )
 }

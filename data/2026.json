@@ -4566,7 +4566,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-05T13:51:42Z",
+    "timestamp": "2026-08-05T19:20:23Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -4754,7 +4754,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-08-05T07:00:09+02:00",
+        "insertDate": "2026-08-05T20:02:09+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -4789,7 +4789,7 @@
           {
             "fuelId": 20,
             "name": "Blue Diesel",
-            "price": 2.199,
+            "price": 2.179,
             "isSelf": true
           }
         ],

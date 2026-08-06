@@ -3,6 +3,10 @@ name: Deploy
 on:
   push:
     branches: [master]
+    paths:
+      - "data/**"
+      - "web/**"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
@@ -19,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -45,6 +49,20 @@ jobs:
         with:
           path: web/dist
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (tentativo 1)
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000
+
+      - name: Pausa prima del retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+
+      - name: Deploy to GitHub Pages (tentativo 2)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000

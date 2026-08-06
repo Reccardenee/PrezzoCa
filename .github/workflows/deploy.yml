@@ -52,9 +52,7 @@ jobs:
       - name: Deploy to GitHub Pages (tentativo 1)
         id: deployment
         continue-on-error: true
-        uses: actions/deploy-pages@v4
-        with:
-          timeout: 1200000
+        uses: actions/deploy-pages@v5
 
       - name: Pausa prima del retry
         if: steps.deployment.outcome == 'failure'
@@ -63,6 +61,4 @@ jobs:
       - name: Deploy to GitHub Pages (tentativo 2)
         id: deployment_retry
         if: steps.deployment.outcome == 'failure'
-        uses: actions/deploy-pages@v4
-        with:
-          timeout: 1200000
+        uses: actions/deploy-pages@v5

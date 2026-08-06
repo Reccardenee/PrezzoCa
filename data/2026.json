@@ -5327,7 +5327,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-06T13:48:47Z",
+    "timestamp": "2026-08-06T23:53:09Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -5509,13 +5509,13 @@
         "openingHours": {}
       },
       {
-        "id": 42190,
+        "id": 42114,
         "name": "Eni",
         "brand": "AgipEni",
-        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
-        "lat": 37.50799022288548,
-        "lng": 13.07384071474985,
-        "insertDate": "2026-08-06T07:16:10+02:00",
+        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
+        "lat": 37.51571907201272,
+        "lng": 13.077489719049026,
+        "insertDate": "2026-08-06T19:56:11+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -5562,13 +5562,13 @@
         "openingHours": {}
       },
       {
-        "id": 42114,
+        "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
-        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
-        "lat": 37.51571907201272,
-        "lng": 13.077489719049026,
-        "insertDate": "2026-08-06T07:02:23+02:00",
+        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
+        "lat": 37.50799022288548,
+        "lng": 13.07384071474985,
+        "insertDate": "2026-08-06T07:16:10+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -5603,7 +5603,7 @@
           {
             "fuelId": 20,
             "name": "Blue Diesel",
-            "price": 2.199,
+            "price": 2.179,
             "isSelf": true
           }
         ],

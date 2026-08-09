@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: collect
@@ -28,8 +29,15 @@ jobs:
       - name: Run collector
         run: python collector/collect.py
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - id: auto_commit
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "feat(data): aggiornamento prezzi automatico"
           commit_user_name: "PrezziCa Bot"
           commit_user_email: "bot@prezzica.it"
+
+      - name: Trigger deploy
+        if: steps.auto_commit.outputs.changes_detected == 'true'
+        run: gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ github.token }}

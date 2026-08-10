@@ -8371,7 +8371,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-10T07:17:42Z",
+    "timestamp": "2026-08-10T12:53:20Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -8426,6 +8426,64 @@
         "company": "ENIMOOV S.P.A.",
         "website": "",
         "services": [],
+        "openingHours": {}
+      },
+      {
+        "id": 51065,
+        "name": "SERVICE OIL DI SIMONE LA BELLA",
+        "brand": "Esso",
+        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
+        "lat": 37.516949426501576,
+        "lng": 13.07686717661147,
+        "insertDate": "2026-08-10T10:13:20+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.199,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.989,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.289,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.079,
+            "isSelf": true
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.489,
+            "isSelf": false
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.279,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVICE OIL DI SIMONE LA BELLA",
+        "website": "",
+        "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
         "openingHours": {}
       },
       {
@@ -8542,30 +8600,30 @@
         "openingHours": {}
       },
       {
-        "id": 51065,
-        "name": "SERVICE OIL DI SIMONE LA BELLA",
-        "brand": "Esso",
-        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
-        "lat": 37.516949426501576,
-        "lng": 13.07686717661147,
-        "insertDate": "2026-08-05T07:27:52+02:00",
+        "id": 42190,
+        "name": "Eni",
+        "brand": "AgipEni",
+        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
+        "lat": 37.50799022288548,
+        "lng": 13.07384071474985,
+        "insertDate": "2026-08-10T13:14:20+02:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.199,
+            "price": 2.229,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.989,
+            "price": 2.009,
             "isSelf": true
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.289,
+            "price": 2.299,
             "isSelf": false
           },
           {
@@ -8575,28 +8633,23 @@
             "isSelf": true
           },
           {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.489,
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.399,
             "isSelf": false
           },
           {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.279,
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.179,
             "isSelf": true
           }
         ],
         "phoneNumber": "",
         "email": "",
-        "company": "SERVICE OIL DI SIMONE LA BELLA",
+        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
         "website": "",
-        "services": [
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
+        "services": [],
         "openingHours": {}
       },
       {
@@ -8642,59 +8695,6 @@
             "fuelId": 20,
             "name": "Blue Diesel",
             "price": 2.199,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
-        "id": 42190,
-        "name": "Eni",
-        "brand": "AgipEni",
-        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
-        "lat": 37.50799022288548,
-        "lng": 13.07384071474985,
-        "insertDate": "2026-08-08T07:18:21+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.229,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.009,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.299,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.079,
-            "isSelf": true
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.399,
-            "isSelf": false
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.179,
             "isSelf": true
           }
         ],

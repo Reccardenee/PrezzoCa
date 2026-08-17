@@ -13698,7 +13698,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-17T06:39:28Z",
+    "timestamp": "2026-08-17T12:29:45Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -13709,7 +13709,7 @@
         "address": "Via Figuli - 92019 SCIACCA (AG)",
         "lat": 37.506496,
         "lng": 13.089992,
-        "insertDate": "2026-08-16T21:57:31+02:00",
+        "insertDate": "2026-08-17T10:16:09+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -13756,13 +13756,71 @@
         "openingHours": {}
       },
       {
+        "id": 51065,
+        "name": "SERVICE OIL DI SIMONE LA BELLA",
+        "brand": "Esso",
+        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
+        "lat": 37.516949426501576,
+        "lng": 13.07686717661147,
+        "insertDate": "2026-08-17T10:14:56+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.209,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.999,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.309,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.099,
+            "isSelf": true
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.509,
+            "isSelf": false
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.299,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVICE OIL DI SIMONE LA BELLA",
+        "website": "",
+        "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
+        "openingHours": {}
+      },
+      {
         "id": 46608,
         "name": "Esso di Lo Raso Luciano",
         "brand": "Esso",
         "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
         "lat": 37.50643407494444,
         "lng": 13.112709682209015,
-        "insertDate": "2026-08-12T08:03:53+02:00",
+        "insertDate": "2026-08-17T09:03:20+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -13814,64 +13872,6 @@
             "id": "1",
             "description": "Food&Beverage"
           },
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
-      {
-        "id": 51065,
-        "name": "SERVICE OIL DI SIMONE LA BELLA",
-        "brand": "Esso",
-        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
-        "lat": 37.516949426501576,
-        "lng": 13.07686717661147,
-        "insertDate": "2026-08-12T07:26:34+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.209,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.999,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.309,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.099,
-            "isSelf": true
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.509,
-            "isSelf": false
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.299,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVICE OIL DI SIMONE LA BELLA",
-        "website": "",
-        "services": [
           {
             "id": "6",
             "description": "Bancomat"
@@ -14091,7 +14091,7 @@
         "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
         "lat": 37.51030544905536,
         "lng": 13.066942669110176,
-        "insertDate": "2026-08-14T10:27:56+02:00",
+        "insertDate": "2026-08-17T13:43:01+02:00",
         "fuels": [
           {
             "fuelId": 1,

@@ -14459,7 +14459,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-18T12:31:39Z",
+    "timestamp": "2026-08-18T18:27:44Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -14800,7 +14800,7 @@
         "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
         "lat": 37.523664558937085,
         "lng": 13.073832392692566,
-        "insertDate": "2026-08-18T11:27:06+02:00",
+        "insertDate": "2026-08-18T17:18:06+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -14817,13 +14817,13 @@
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.439,
+            "price": 2.429,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.139,
+            "price": 2.129,
             "isSelf": true
           },
           {

@@ -15981,7 +15981,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-20T06:34:03Z",
+    "timestamp": "2026-08-20T12:33:39Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -16269,58 +16269,6 @@
         "openingHours": {}
       },
       {
-        "id": 42421,
-        "name": "AG011",
-        "brand": "Q8",
-        "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
-        "lat": 37.523664558937085,
-        "lng": 13.073832392692566,
-        "insertDate": "2026-08-19T12:12:12+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.299,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.999,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.439,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.139,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.719,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "EOS SERVICES S.R.L. A SOCIO UNICO",
-        "website": "",
-        "services": [
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
-      {
         "id": 20045,
         "name": "C.DA FOGGIA SCIACCA",
         "brand": "AgipEni",
@@ -16365,6 +16313,58 @@
         "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
         "website": "",
         "services": [],
+        "openingHours": {}
+      },
+      {
+        "id": 42421,
+        "name": "AG011",
+        "brand": "Q8",
+        "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
+        "lat": 37.523664558937085,
+        "lng": 13.073832392692566,
+        "insertDate": "2026-08-20T10:21:05+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.299,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.999,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.459,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.159,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.719,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "EOS SERVICES S.R.L. A SOCIO UNICO",
+        "website": "",
+        "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
         "openingHours": {}
       },
       {

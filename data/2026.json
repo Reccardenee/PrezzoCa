@@ -15981,7 +15981,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-20T12:33:39Z",
+    "timestamp": "2026-08-20T18:29:12Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -16039,13 +16039,13 @@
         "openingHours": {}
       },
       {
-        "id": 42114,
+        "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
-        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
-        "lat": 37.51571907201272,
-        "lng": 13.077489719049026,
-        "insertDate": "2026-08-18T09:16:15+02:00",
+        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
+        "lat": 37.50799022288548,
+        "lng": 13.07384071474985,
+        "insertDate": "2026-08-20T20:02:13+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -16092,13 +16092,13 @@
         "openingHours": {}
       },
       {
-        "id": 42190,
+        "id": 42114,
         "name": "Eni",
         "brand": "AgipEni",
-        "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
-        "lat": 37.50799022288548,
-        "lng": 13.07384071474985,
-        "insertDate": "2026-08-18T07:16:28+02:00",
+        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
+        "lat": 37.51571907201272,
+        "lng": 13.077489719049026,
+        "insertDate": "2026-08-20T19:38:15+02:00",
         "fuels": [
           {
             "fuelId": 1,

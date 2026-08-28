@@ -22069,7 +22069,7 @@
     ]
   },
   {
-    "timestamp": "2026-08-28T01:59:07Z",
+    "timestamp": "2026-08-28T17:58:41Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -22257,7 +22257,7 @@
         "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
         "lat": 37.50804259290687,
         "lng": 13.052275609786989,
-        "insertDate": "2026-08-27T05:57:36+02:00",
+        "insertDate": "2026-08-28T05:57:36+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -22304,7 +22304,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-08-27T19:16:13+02:00",
+        "insertDate": "2026-08-28T08:22:40+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -22410,7 +22410,7 @@
         "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
         "lat": 37.523664558937085,
         "lng": 13.073832392692566,
-        "insertDate": "2026-08-21T10:51:06+02:00",
+        "insertDate": "2026-08-28T10:51:06+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -22462,7 +22462,7 @@
         "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
         "lat": 37.51030544905536,
         "lng": 13.066942669110176,
-        "insertDate": "2026-08-22T20:13:46+02:00",
+        "insertDate": "2026-08-28T13:25:31+02:00",
         "fuels": [
           {
             "fuelId": 1,

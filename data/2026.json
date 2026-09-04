@@ -27396,7 +27396,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-04T15:34:09Z",
+    "timestamp": "2026-09-04T20:08:04Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -27407,7 +27407,7 @@
         "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
         "lat": 37.51030544905536,
         "lng": 13.066942669110176,
-        "insertDate": "2026-08-28T13:25:31+02:00",
+        "insertDate": "2026-09-04T19:17:25+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -27424,13 +27424,13 @@
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.149,
+            "price": 2.179,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.149,
+            "price": 2.179,
             "isSelf": true
           }
         ],

@@ -30440,7 +30440,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-08T10:24:07Z",
+    "timestamp": "2026-09-08T15:47:51Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -30451,7 +30451,7 @@
         "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
         "lat": 37.51030544905536,
         "lng": 13.066942669110176,
-        "insertDate": "2026-09-08T11:04:49+02:00",
+        "insertDate": "2026-09-08T13:49:15+02:00",
         "fuels": [
           {
             "fuelId": 1,

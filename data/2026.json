@@ -33930,76 +33930,10 @@
     ]
   },
   {
-    "timestamp": "2026-09-12T09:54:12Z",
+    "timestamp": "2026-09-12T14:47:26Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
-      {
-        "id": 46608,
-        "name": "Esso di Lo Raso Luciano",
-        "brand": "Esso",
-        "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
-        "lat": 37.50643407494444,
-        "lng": 13.112709682209015,
-        "insertDate": "2026-09-09T07:59:34+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.309,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.099,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.409,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.199,
-            "isSelf": true
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.609,
-            "isSelf": false
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.399,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "3284566976",
-        "email": "lorasoluciano.78@yahoo.com",
-        "company": "LO RASO LUCIANO",
-        "website": "",
-        "services": [
-          {
-            "id": "7",
-            "description": "Servizi per disabili"
-          },
-          {
-            "id": "1",
-            "description": "Food&Beverage"
-          },
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
       {
         "id": 58866,
         "name": "9830 SCIACCA",
@@ -34672,6 +34606,72 @@
         "company": "EOS SERVICES S.R.L. A SOCIO UNICO",
         "website": "",
         "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
+        "openingHours": {}
+      },
+      {
+        "id": 46608,
+        "name": "Esso di Lo Raso Luciano",
+        "brand": "Esso",
+        "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
+        "lat": 37.50643407494444,
+        "lng": 13.112709682209015,
+        "insertDate": "2026-09-12T12:48:20+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.349,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.139,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.449,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.239,
+            "isSelf": true
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.649,
+            "isSelf": false
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.439,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "3284566976",
+        "email": "lorasoluciano.78@yahoo.com",
+        "company": "LO RASO LUCIANO",
+        "website": "",
+        "services": [
+          {
+            "id": "7",
+            "description": "Servizi per disabili"
+          },
+          {
+            "id": "1",
+            "description": "Food&Beverage"
+          },
           {
             "id": "6",
             "description": "Bancomat"

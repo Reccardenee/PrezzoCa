@@ -37866,7 +37866,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-16T15:54:40Z",
+    "timestamp": "2026-09-16T20:44:21Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -38317,7 +38317,7 @@
         "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
         "lat": 37.50643407494444,
         "lng": 13.112709682209015,
-        "insertDate": "2026-09-15T08:26:19+02:00",
+        "insertDate": "2026-09-16T18:24:58+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -38334,25 +38334,25 @@
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.479,
+            "price": 2.489,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.269,
+            "price": 2.279,
             "isSelf": true
           },
           {
             "fuelId": 327,
             "name": "Supreme Diesel",
-            "price": 2.679,
+            "price": 2.689,
             "isSelf": false
           },
           {
             "fuelId": 327,
             "name": "Supreme Diesel",
-            "price": 2.469,
+            "price": 2.479,
             "isSelf": true
           }
         ],
@@ -38377,18 +38377,18 @@
         "openingHours": {}
       },
       {
-        "id": 41635,
-        "name": "CURRERI CARBURANTI",
-        "brand": "CurreriCarburanti",
-        "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
-        "lat": 37.51030544905536,
-        "lng": 13.066942669110176,
-        "insertDate": "2026-09-16T10:09:05+02:00",
+        "id": 42421,
+        "name": "AG011",
+        "brand": "Q8",
+        "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
+        "lat": 37.523664558937085,
+        "lng": 13.073832392692566,
+        "insertDate": "2026-09-16T15:21:07+02:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.199,
+            "price": 2.499,
             "isSelf": false
           },
           {
@@ -38400,13 +38400,112 @@
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.299,
+            "price": 2.599,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
             "price": 2.299,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.719,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "EOS SERVICES S.R.L. A SOCIO UNICO",
+        "website": "",
+        "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
+        "openingHours": {}
+      },
+      {
+        "id": 20045,
+        "name": "C.DA FOGGIA SCIACCA",
+        "brand": "AgipEni",
+        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
+        "lat": 37.50804259290687,
+        "lng": 13.052275609786989,
+        "insertDate": "2026-09-16T05:57:54+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.369,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.159,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.519,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.309,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.709,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
+      {
+        "id": 41635,
+        "name": "CURRERI CARBURANTI",
+        "brand": "CurreriCarburanti",
+        "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
+        "lat": 37.51030544905536,
+        "lng": 13.066942669110176,
+        "insertDate": "2026-09-16T10:09:05+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.219,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.219,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.369,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.369,
             "isSelf": true
           }
         ],
@@ -38562,105 +38661,6 @@
             "flagSelf": true
           }
         ]
-      },
-      {
-        "id": 42421,
-        "name": "AG011",
-        "brand": "Q8",
-        "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
-        "lat": 37.523664558937085,
-        "lng": 13.073832392692566,
-        "insertDate": "2026-09-16T15:21:07+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.499,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.199,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.599,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.299,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.719,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "EOS SERVICES S.R.L. A SOCIO UNICO",
-        "website": "",
-        "services": [
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
-      {
-        "id": 20045,
-        "name": "C.DA FOGGIA SCIACCA",
-        "brand": "AgipEni",
-        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
-        "lat": 37.50804259290687,
-        "lng": 13.052275609786989,
-        "insertDate": "2026-09-16T05:57:54+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.369,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.159,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.519,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.309,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.709,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
       },
       {
         "id": 12200,

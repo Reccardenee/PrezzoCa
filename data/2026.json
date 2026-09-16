@@ -37866,7 +37866,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-16T10:37:50Z",
+    "timestamp": "2026-09-16T15:54:40Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -38377,58 +38377,6 @@
         "openingHours": {}
       },
       {
-        "id": 42421,
-        "name": "AG011",
-        "brand": "Q8",
-        "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
-        "lat": 37.523664558937085,
-        "lng": 13.073832392692566,
-        "insertDate": "2026-09-15T11:30:06+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.469,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.169,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.569,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.269,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.719,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "EOS SERVICES S.R.L. A SOCIO UNICO",
-        "website": "",
-        "services": [
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
-      {
         "id": 41635,
         "name": "CURRERI CARBURANTI",
         "brand": "CurreriCarburanti",
@@ -38614,6 +38562,58 @@
             "flagSelf": true
           }
         ]
+      },
+      {
+        "id": 42421,
+        "name": "AG011",
+        "brand": "Q8",
+        "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
+        "lat": 37.523664558937085,
+        "lng": 13.073832392692566,
+        "insertDate": "2026-09-16T15:21:07+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.499,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.199,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.599,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.299,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.719,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "EOS SERVICES S.R.L. A SOCIO UNICO",
+        "website": "",
+        "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
+        "openingHours": {}
       },
       {
         "id": 20045,

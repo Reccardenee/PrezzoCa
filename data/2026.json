@@ -39834,7 +39834,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-18T15:35:50Z",
+    "timestamp": "2026-09-18T20:15:08Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -39898,7 +39898,7 @@
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-09-18T07:54:43+02:00",
+        "insertDate": "2026-09-18T19:38:10+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -39951,7 +39951,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-09-18T07:50:07+02:00",
+        "insertDate": "2026-09-18T19:36:10+02:00",
         "fuels": [
           {
             "fuelId": 1,

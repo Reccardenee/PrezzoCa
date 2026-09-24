@@ -45954,7 +45954,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-24T16:16:50Z",
+    "timestamp": "2026-09-24T21:00:39Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -46166,66 +46166,13 @@
         "openingHours": {}
       },
       {
-        "id": 58866,
-        "name": "9830 SCIACCA",
-        "brand": "AgipEni",
-        "address": "Via Figuli - 92019 SCIACCA (AG)",
-        "lat": 37.506496,
-        "lng": 13.089992,
-        "insertDate": "2026-09-24T15:02:48+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.379,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.159,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.569,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.349,
-            "isSelf": true
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.669,
-            "isSelf": false
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.449,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "ENIMOOV S.P.A.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
         "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-09-24T07:58:46+02:00",
+        "insertDate": "2026-09-24T19:56:13+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -46278,7 +46225,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-09-22T08:49:02+02:00",
+        "insertDate": "2026-09-24T19:30:07+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -46320,6 +46267,59 @@
         "phoneNumber": "",
         "email": "",
         "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
+      {
+        "id": 58866,
+        "name": "9830 SCIACCA",
+        "brand": "AgipEni",
+        "address": "Via Figuli - 92019 SCIACCA (AG)",
+        "lat": 37.506496,
+        "lng": 13.089992,
+        "insertDate": "2026-09-24T15:02:48+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.379,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.159,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.569,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.349,
+            "isSelf": true
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.669,
+            "isSelf": false
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.449,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "ENIMOOV S.P.A.",
         "website": "",
         "services": [],
         "openingHours": {}

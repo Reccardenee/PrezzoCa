@@ -49050,7 +49050,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-27T16:10:38Z",
+    "timestamp": "2026-09-27T20:41:06Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -49760,66 +49760,13 @@
         "openingHours": {}
       },
       {
-        "id": 42114,
-        "name": "Eni",
-        "brand": "AgipEni",
-        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
-        "lat": 37.51571907201272,
-        "lng": 13.077489719049026,
-        "insertDate": "2026-09-26T19:32:09+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.379,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.159,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.63,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.41,
-            "isSelf": true
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.73,
-            "isSelf": false
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.51,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
         "id": 58866,
         "name": "9830 SCIACCA",
         "brand": "AgipEni",
         "address": "Via Figuli - 92019 SCIACCA (AG)",
         "lat": 37.506496,
         "lng": 13.089992,
-        "insertDate": "2026-09-26T12:32:16+02:00",
+        "insertDate": "2026-09-27T22:04:20+02:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -49872,7 +49819,60 @@
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-09-26T08:41:37+02:00",
+        "insertDate": "2026-09-27T21:55:57+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.379,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.159,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.63,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.41,
+            "isSelf": true
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.73,
+            "isSelf": false
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.51,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
+      {
+        "id": 42114,
+        "name": "Eni",
+        "brand": "AgipEni",
+        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
+        "lat": 37.51571907201272,
+        "lng": 13.077489719049026,
+        "insertDate": "2026-09-26T19:32:09+02:00",
         "fuels": [
           {
             "fuelId": 1,

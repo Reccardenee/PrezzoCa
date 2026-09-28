@@ -50106,7 +50106,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-28T12:35:42Z",
+    "timestamp": "2026-09-28T22:50:23Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -50323,7 +50323,7 @@
         "address": "Via Verona snc - 92019 SCIACCA (AG)",
         "lat": 37.515070339237816,
         "lng": 13.075683116912842,
-        "insertDate": "2026-09-24T09:50:06+02:00",
+        "insertDate": "2026-09-28T20:23:52+02:00",
         "fuels": [
           {
             "fuelId": 1,

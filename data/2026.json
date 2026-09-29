@@ -51162,7 +51162,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-29T11:55:53Z",
+    "timestamp": "2026-09-29T17:29:55Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -51783,6 +51783,100 @@
         ]
       },
       {
+        "id": 51065,
+        "name": "SERVICE OIL DI SIMONE LA BELLA",
+        "brand": "Esso",
+        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
+        "lat": 37.516949426501576,
+        "lng": 13.07686717661147,
+        "insertDate": "2026-09-29T19:07:25+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.369,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.359,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.159,
+            "isSelf": true
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.149,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.609,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.609,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.399,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.399,
+            "isSelf": true
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.809,
+            "isSelf": false
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.809,
+            "isSelf": false
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.599,
+            "isSelf": true
+          },
+          {
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.599,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVICE OIL DI SIMONE LA BELLA",
+        "website": "",
+        "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
+        "openingHours": {}
+      },
+      {
         "id": 46608,
         "name": "Esso di Lo Raso Luciano",
         "brand": "Esso",
@@ -51877,100 +51971,6 @@
             "id": "1",
             "description": "Food&Beverage"
           },
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
-      {
-        "id": 51065,
-        "name": "SERVICE OIL DI SIMONE LA BELLA",
-        "brand": "Esso",
-        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
-        "lat": 37.516949426501576,
-        "lng": 13.07686717661147,
-        "insertDate": "2026-09-28T09:23:06+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.369,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.369,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.159,
-            "isSelf": true
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.159,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.609,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.609,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.399,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.399,
-            "isSelf": true
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.809,
-            "isSelf": false
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.809,
-            "isSelf": false
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.599,
-            "isSelf": true
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.599,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVICE OIL DI SIMONE LA BELLA",
-        "website": "",
-        "services": [
           {
             "id": "6",
             "description": "Bancomat"

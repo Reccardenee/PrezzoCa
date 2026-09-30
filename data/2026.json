@@ -52218,7 +52218,7 @@
     ]
   },
   {
-    "timestamp": "2026-09-30T11:43:32Z",
+    "timestamp": "2026-09-30T17:23:46Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -52229,7 +52229,7 @@
         "address": "Via Figuli - 92019 SCIACCA (AG)",
         "lat": 37.506496,
         "lng": 13.089992,
-        "insertDate": "2026-09-30T12:35:08+02:00",
+        "insertDate": "2026-09-30T14:52:03+02:00",
         "fuels": [
           {
             "fuelId": 1,

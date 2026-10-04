@@ -56370,10 +56370,63 @@
     ]
   },
   {
-    "timestamp": "2026-10-04T16:16:23Z",
+    "timestamp": "2026-10-04T20:45:05Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
+      {
+        "id": 58866,
+        "name": "9830 SCIACCA",
+        "brand": "AgipEni",
+        "address": "Via Figuli - 92019 SCIACCA (AG)",
+        "lat": 37.506496,
+        "lng": 13.089992,
+        "insertDate": "2026-10-04T22:16:06+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.2,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.99,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.4,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.19,
+            "isSelf": true
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.5,
+            "isSelf": false
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.29,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "ENIMOOV S.P.A.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
       {
         "id": 20045,
         "name": "C.DA FOGGIA SCIACCA",
@@ -56417,59 +56470,6 @@
         "phoneNumber": "",
         "email": "",
         "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
-        "id": 58866,
-        "name": "9830 SCIACCA",
-        "brand": "AgipEni",
-        "address": "Via Figuli - 92019 SCIACCA (AG)",
-        "lat": 37.506496,
-        "lng": 13.089992,
-        "insertDate": "2026-10-02T14:53:04+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.2,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.99,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.4,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.19,
-            "isSelf": true
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.5,
-            "isSelf": false
-          },
-          {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.29,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "ENIMOOV S.P.A.",
         "website": "",
         "services": [],
         "openingHours": {}

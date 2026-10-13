@@ -65262,10 +65262,57 @@
     ]
   },
   {
-    "timestamp": "2026-10-13T00:01:06Z",
+    "timestamp": "2026-10-13T13:19:09Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
+      {
+        "id": 20045,
+        "name": "C.DA FOGGIA SCIACCA",
+        "brand": "AgipEni",
+        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
+        "lat": 37.50804259290687,
+        "lng": 13.052275609786989,
+        "insertDate": "2026-10-13T05:58:16+02:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.2,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.99,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.4,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.19,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.709,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
       {
         "id": 58866,
         "name": "9830 SCIACCA",
@@ -65315,53 +65362,6 @@
         "phoneNumber": "",
         "email": "",
         "company": "ENIMOOV S.P.A.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
-        "id": 20045,
-        "name": "C.DA FOGGIA SCIACCA",
-        "brand": "AgipEni",
-        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
-        "lat": 37.50804259290687,
-        "lng": 13.052275609786989,
-        "insertDate": "2026-10-10T05:58:14+02:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.2,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.99,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.4,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.19,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.709,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
         "website": "",
         "services": [],
         "openingHours": {}

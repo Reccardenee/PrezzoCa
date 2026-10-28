@@ -78054,7 +78054,7 @@
     ]
   },
   {
-    "timestamp": "2026-10-28T17:51:20Z",
+    "timestamp": "2026-10-28T22:04:53Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -78165,7 +78165,7 @@
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-10-28T07:08:03+01:00",
+        "insertDate": "2026-10-28T19:34:13+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -78452,13 +78452,13 @@
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.149,
+            "price": 2.099,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.149,
+            "price": 2.099,
             "isSelf": true
           },
           {

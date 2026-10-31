@@ -81006,7 +81006,7 @@
     ]
   },
   {
-    "timestamp": "2026-10-31T16:38:52Z",
+    "timestamp": "2026-10-31T20:51:41Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -81111,6 +81111,59 @@
         "openingHours": {}
       },
       {
+        "id": 42114,
+        "name": "Eni",
+        "brand": "AgipEni",
+        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
+        "lat": 37.51571907201272,
+        "lng": 13.077489719049026,
+        "insertDate": "2026-10-31T19:22:10+01:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.215,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.99,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.415,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.19,
+            "isSelf": true
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.515,
+            "isSelf": false
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.29,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
+      {
         "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
@@ -81164,56 +81217,69 @@
         "openingHours": {}
       },
       {
-        "id": 42114,
-        "name": "Eni",
-        "brand": "AgipEni",
-        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
-        "lat": 37.51571907201272,
-        "lng": 13.077489719049026,
-        "insertDate": "2026-10-30T08:46:03+01:00",
+        "id": 46608,
+        "name": "Esso di Lo Raso Luciano",
+        "brand": "Esso",
+        "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
+        "lat": 37.50643407494444,
+        "lng": 13.112709682209015,
+        "insertDate": "2026-10-31T18:53:58+01:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.215,
+            "price": 2.209,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.99,
+            "price": 1.999,
             "isSelf": true
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.415,
+            "price": 2.409,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.19,
+            "price": 2.199,
             "isSelf": true
           },
           {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.515,
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.609,
             "isSelf": false
           },
           {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.29,
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.399,
             "isSelf": true
           }
         ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
+        "phoneNumber": "3284566976",
+        "email": "lorasoluciano.78@yahoo.com",
+        "company": "LO RASO LUCIANO",
         "website": "",
-        "services": [],
+        "services": [
+          {
+            "id": "7",
+            "description": "Servizi per disabili"
+          },
+          {
+            "id": "1",
+            "description": "Food&Beverage"
+          },
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
         "openingHours": {}
       },
       {
@@ -81267,72 +81333,6 @@
         "company": "SERVICE OIL DI SIMONE LA BELLA",
         "website": "",
         "services": [
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
-      {
-        "id": 46608,
-        "name": "Esso di Lo Raso Luciano",
-        "brand": "Esso",
-        "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
-        "lat": 37.50643407494444,
-        "lng": 13.112709682209015,
-        "insertDate": "2026-10-30T07:24:33+01:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.209,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.999,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.459,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.249,
-            "isSelf": true
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.659,
-            "isSelf": false
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.449,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "3284566976",
-        "email": "lorasoluciano.78@yahoo.com",
-        "company": "LO RASO LUCIANO",
-        "website": "",
-        "services": [
-          {
-            "id": "7",
-            "description": "Servizi per disabili"
-          },
-          {
-            "id": "1",
-            "description": "Food&Beverage"
-          },
           {
             "id": "6",
             "description": "Bancomat"

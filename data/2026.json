@@ -83958,10 +83958,57 @@
     ]
   },
   {
-    "timestamp": "2026-11-03T00:17:20Z",
+    "timestamp": "2026-11-03T13:25:01Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
+      {
+        "id": 20045,
+        "name": "C.DA FOGGIA SCIACCA",
+        "brand": "AgipEni",
+        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
+        "lat": 37.50804259290687,
+        "lng": 13.052275609786989,
+        "insertDate": "2026-11-03T05:57:33+01:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.2,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.99,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.4,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.19,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.719,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
       {
         "id": 58866,
         "name": "9830 SCIACCA",
@@ -84016,60 +84063,13 @@
         "openingHours": {}
       },
       {
-        "id": 20045,
-        "name": "C.DA FOGGIA SCIACCA",
-        "brand": "AgipEni",
-        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
-        "lat": 37.50804259290687,
-        "lng": 13.052275609786989,
-        "insertDate": "2026-10-31T05:57:32+01:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.2,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.99,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.4,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.19,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.719,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
         "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-11-02T19:34:13+01:00",
+        "insertDate": "2026-11-03T07:10:18+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -84175,7 +84175,7 @@
         "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
         "lat": 37.516949426501576,
         "lng": 13.07686717661147,
-        "insertDate": "2026-11-02T07:57:07+01:00",
+        "insertDate": "2026-11-03T08:23:18+01:00",
         "fuels": [
           {
             "fuelId": 1,

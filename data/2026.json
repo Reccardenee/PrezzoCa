@@ -84942,7 +84942,7 @@
     ]
   },
   {
-    "timestamp": "2026-11-04T13:36:50Z",
+    "timestamp": "2026-11-04T23:03:54Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -84953,7 +84953,7 @@
         "address": "Via Figuli - 92019 SCIACCA (AG)",
         "lat": 37.506496,
         "lng": 13.089992,
-        "insertDate": "2026-11-04T12:38:33+01:00",
+        "insertDate": "2026-11-04T14:52:10+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -85283,7 +85283,7 @@
         "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
         "lat": 37.523664558937085,
         "lng": 13.073832392692566,
-        "insertDate": "2026-10-30T10:51:08+01:00",
+        "insertDate": "2026-11-04T16:09:04+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -85312,7 +85312,7 @@
           {
             "fuelId": 4,
             "name": "GPL",
-            "price": 0.739,
+            "price": 0.759,
             "isSelf": false
           }
         ],

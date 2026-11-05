@@ -85926,61 +85926,66 @@
     ]
   },
   {
-    "timestamp": "2026-11-05T13:50:26Z",
+    "timestamp": "2026-11-05T23:08:10Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
       {
-        "id": 42114,
-        "name": "Eni",
-        "brand": "AgipEni",
-        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
-        "lat": 37.51571907201272,
-        "lng": 13.077489719049026,
-        "insertDate": "2026-11-05T07:18:31+01:00",
+        "id": 51065,
+        "name": "SERVICE OIL DI SIMONE LA BELLA",
+        "brand": "Esso",
+        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
+        "lat": 37.516949426501576,
+        "lng": 13.07686717661147,
+        "insertDate": "2026-11-05T17:21:15+01:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.215,
+            "price": 2.209,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.99,
+            "price": 1.999,
             "isSelf": true
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.415,
+            "price": 2.409,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.19,
+            "price": 2.199,
             "isSelf": true
           },
           {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.515,
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.609,
             "isSelf": false
           },
           {
-            "fuelId": 20,
-            "name": "Blue Diesel",
-            "price": 2.29,
+            "fuelId": 327,
+            "name": "Supreme Diesel",
+            "price": 2.399,
             "isSelf": true
           }
         ],
         "phoneNumber": "",
         "email": "",
-        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
+        "company": "SERVICE OIL DI SIMONE LA BELLA",
         "website": "",
-        "services": [],
+        "services": [
+          {
+            "id": "6",
+            "description": "Bancomat"
+          }
+        ],
         "openingHours": {}
       },
       {
@@ -86042,64 +86047,6 @@
             "id": "1",
             "description": "Food&Beverage"
           },
-          {
-            "id": "6",
-            "description": "Bancomat"
-          }
-        ],
-        "openingHours": {}
-      },
-      {
-        "id": 51065,
-        "name": "SERVICE OIL DI SIMONE LA BELLA",
-        "brand": "Esso",
-        "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
-        "lat": 37.516949426501576,
-        "lng": 13.07686717661147,
-        "insertDate": "2026-11-03T08:23:18+01:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.209,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.999,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.409,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.199,
-            "isSelf": true
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.609,
-            "isSelf": false
-          },
-          {
-            "fuelId": 327,
-            "name": "Supreme Diesel",
-            "price": 2.399,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVICE OIL DI SIMONE LA BELLA",
-        "website": "",
-        "services": [
           {
             "id": "6",
             "description": "Bancomat"
@@ -86255,6 +86202,59 @@
         "phoneNumber": "",
         "email": "",
         "company": "ENIMOOV S.P.A.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
+      {
+        "id": 42114,
+        "name": "Eni",
+        "brand": "AgipEni",
+        "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
+        "lat": 37.51571907201272,
+        "lng": 13.077489719049026,
+        "insertDate": "2026-11-05T17:34:09+01:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.215,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.99,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.425,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.2,
+            "isSelf": true
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.525,
+            "isSelf": false
+          },
+          {
+            "fuelId": 20,
+            "name": "Blue Diesel",
+            "price": 2.3,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "IDROCARBURI SCIACCA S.A.S. DI IGNAZIO SANTANGELO & C.",
         "website": "",
         "services": [],
         "openingHours": {}
@@ -86498,247 +86498,60 @@
         ]
       },
       {
-        "id": 41635,
-        "name": "CURRERI CARBURANTI",
-        "brand": "CurreriCarburanti",
-        "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
-        "lat": 37.51030544905536,
-        "lng": 13.066942669110176,
-        "insertDate": "2026-11-05T11:53:41+01:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.079,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.079,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.399,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.399,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "092521553",
-        "email": "curreri.carburanti@gmail.com",
-        "company": "CURRERI CARBURANTI S.R.L.",
-        "website": "https://www.facebook.com/currericarburanti/",
-        "services": [
-          {
-            "id": "7",
-            "description": "Servizi per disabili"
-          },
-          {
-            "id": "1",
-            "description": "Food&Beverage"
-          },
-          {
-            "id": "6",
-            "description": "Bancomat"
-          },
-          {
-            "id": "5",
-            "description": "Area bambini"
-          }
-        ],
-        "openingHours": [
-          {
-            "orariAperturaId": 12773,
-            "giornoSettimanaId": 1,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12774,
-            "giornoSettimanaId": 2,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12775,
-            "giornoSettimanaId": 3,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12776,
-            "giornoSettimanaId": 4,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12777,
-            "giornoSettimanaId": 5,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12778,
-            "giornoSettimanaId": 6,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12779,
-            "giornoSettimanaId": 7,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": false,
-            "oraAperturaOrarioContinuato": null,
-            "oraChiusuraOrarioContinuato": null,
-            "flagH24": false,
-            "flagChiusura": true,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12780,
-            "giornoSettimanaId": 8,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": false,
-            "oraAperturaOrarioContinuato": null,
-            "oraChiusuraOrarioContinuato": null,
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          }
-        ]
-      },
-      {
         "id": 63648,
         "name": "SPOWER GROUP SRL",
         "brand": "PompeBianche",
         "address": "Via Verona snc - 92019 SCIACCA (AG)",
         "lat": 37.515070339237816,
         "lng": 13.075683116912842,
-        "insertDate": "2026-11-02T12:38:13+01:00",
+        "insertDate": "2026-11-05T20:47:56+01:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.997,
+            "price": 1.989,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.997,
+            "price": 1.989,
             "isSelf": true
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.399,
+            "price": 2.359,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.399,
+            "price": 2.359,
             "isSelf": true
           },
           {
             "fuelId": 424,
             "name": "HVO",
-            "price": 2.399,
+            "price": 2.359,
             "isSelf": false
           },
           {
             "fuelId": 424,
             "name": "HVO",
-            "price": 2.399,
+            "price": 2.359,
             "isSelf": true
           },
           {
             "fuelId": 452,
             "name": "Diesel HVO",
-            "price": 2.399,
+            "price": 2.359,
             "isSelf": false
           },
           {
             "fuelId": 452,
             "name": "Diesel HVO",
-            "price": 2.399,
+            "price": 2.359,
             "isSelf": true
           }
         ],
@@ -86891,6 +86704,193 @@
           },
           {
             "orariAperturaId": 180715,
+            "giornoSettimanaId": 8,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": false,
+            "oraAperturaOrarioContinuato": null,
+            "oraChiusuraOrarioContinuato": null,
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          }
+        ]
+      },
+      {
+        "id": 41635,
+        "name": "CURRERI CARBURANTI",
+        "brand": "CurreriCarburanti",
+        "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
+        "lat": 37.51030544905536,
+        "lng": 13.066942669110176,
+        "insertDate": "2026-11-05T11:53:41+01:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.999,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.999,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.369,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.369,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "092521553",
+        "email": "curreri.carburanti@gmail.com",
+        "company": "CURRERI CARBURANTI S.R.L.",
+        "website": "https://www.facebook.com/currericarburanti/",
+        "services": [
+          {
+            "id": "7",
+            "description": "Servizi per disabili"
+          },
+          {
+            "id": "1",
+            "description": "Food&Beverage"
+          },
+          {
+            "id": "6",
+            "description": "Bancomat"
+          },
+          {
+            "id": "5",
+            "description": "Area bambini"
+          }
+        ],
+        "openingHours": [
+          {
+            "orariAperturaId": 12773,
+            "giornoSettimanaId": 1,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12774,
+            "giornoSettimanaId": 2,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12775,
+            "giornoSettimanaId": 3,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12776,
+            "giornoSettimanaId": 4,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12777,
+            "giornoSettimanaId": 5,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12778,
+            "giornoSettimanaId": 6,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12779,
+            "giornoSettimanaId": 7,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": false,
+            "oraAperturaOrarioContinuato": null,
+            "oraChiusuraOrarioContinuato": null,
+            "flagH24": false,
+            "flagChiusura": true,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12780,
             "giornoSettimanaId": 8,
             "oraAperturaMattina": null,
             "oraChiusuraMattina": null,

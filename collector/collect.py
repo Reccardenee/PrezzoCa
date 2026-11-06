@@ -13,8 +13,8 @@ CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
 API_URL = "https://carburanti.mise.gov.it/ospzApi/search/zone"
 DETAIL_URL = "https://carburanti.mise.gov.it/ospzApi/registry/servicearea"
 
-FETCH_RETRIES = 3
-FETCH_BACKOFF = (15, 45)
+FETCH_RETRIES = 5
+FETCH_BACKOFF = (10, 30, 60, 120)
 
 
 def load_config():
@@ -32,10 +32,10 @@ def fetch_prices(config):
     last_error = None
     for attempt in range(1, FETCH_RETRIES + 1):
         try:
-            resp = requests.post(API_URL, json=payload, timeout=60)
+            resp = requests.post(API_URL, json=payload, timeout=(10, 45))
             resp.raise_for_status()
             return resp.json()
-        except Exception as e:
+        except (requests.RequestException, ValueError) as e:
             last_error = e
             if attempt < FETCH_RETRIES:
                 wait = FETCH_BACKOFF[min(attempt - 1, len(FETCH_BACKOFF) - 1)]

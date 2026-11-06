@@ -6,8 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  actions: write
+  contents: read
 
 concurrency:
   group: collect
@@ -16,6 +15,10 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changes_detected: ${{ steps.auto_commit.outputs.changes_detected }}
     steps:
       - uses: actions/checkout@v4
 
@@ -30,14 +33,20 @@ jobs:
         run: python collector/collect.py
 
       - id: auto_commit
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 # v5
         with:
           commit_message: "feat(data): aggiornamento prezzi automatico"
           commit_user_name: "PrezziCa Bot"
           commit_user_email: "bot@prezzica.it"
 
+  trigger_deploy:
+    needs: collect
+    if: needs.collect.outputs.changes_detected == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
       - name: Trigger deploy
-        if: steps.auto_commit.outputs.changes_detected == 'true'
-        run: gh workflow run deploy.yml
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY"
         env:
           GH_TOKEN: ${{ github.token }}

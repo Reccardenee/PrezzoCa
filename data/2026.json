@@ -90846,7 +90846,7 @@
     ]
   },
   {
-    "timestamp": "2026-11-10T01:02:16Z",
+    "timestamp": "2026-11-10T14:05:05Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -90981,7 +90981,7 @@
         "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
         "lat": 37.50804259290687,
         "lng": 13.052275609786989,
-        "insertDate": "2026-11-09T09:55:10+01:00",
+        "insertDate": "2026-11-10T14:42:24+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -90998,13 +90998,13 @@
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.44,
+            "price": 2.41,
             "isSelf": false
           },
           {
             "fuelId": 2,
             "name": "Gasolio",
-            "price": 2.23,
+            "price": 2.2,
             "isSelf": true
           },
           {
@@ -91081,7 +91081,7 @@
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-11-09T09:04:14+01:00",
+        "insertDate": "2026-11-10T07:02:12+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -91134,7 +91134,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-11-09T18:37:02+01:00",
+        "insertDate": "2026-11-10T07:04:14+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -91418,6 +91418,193 @@
         "openingHours": {}
       },
       {
+        "id": 41635,
+        "name": "CURRERI CARBURANTI",
+        "brand": "CurreriCarburanti",
+        "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
+        "lat": 37.51030544905536,
+        "lng": 13.066942669110176,
+        "insertDate": "2026-11-10T10:03:27+01:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.989,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.989,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.359,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.359,
+            "isSelf": true
+          }
+        ],
+        "phoneNumber": "092521553",
+        "email": "curreri.carburanti@gmail.com",
+        "company": "CURRERI CARBURANTI S.R.L.",
+        "website": "https://www.facebook.com/currericarburanti/",
+        "services": [
+          {
+            "id": "7",
+            "description": "Servizi per disabili"
+          },
+          {
+            "id": "1",
+            "description": "Food&Beverage"
+          },
+          {
+            "id": "6",
+            "description": "Bancomat"
+          },
+          {
+            "id": "5",
+            "description": "Area bambini"
+          }
+        ],
+        "openingHours": [
+          {
+            "orariAperturaId": 12773,
+            "giornoSettimanaId": 1,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12774,
+            "giornoSettimanaId": 2,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12775,
+            "giornoSettimanaId": 3,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12776,
+            "giornoSettimanaId": 4,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12777,
+            "giornoSettimanaId": 5,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12778,
+            "giornoSettimanaId": 6,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": true,
+            "oraAperturaOrarioContinuato": "07:00",
+            "oraChiusuraOrarioContinuato": "20:00",
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12779,
+            "giornoSettimanaId": 7,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": false,
+            "oraAperturaOrarioContinuato": null,
+            "oraChiusuraOrarioContinuato": null,
+            "flagH24": false,
+            "flagChiusura": true,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          },
+          {
+            "orariAperturaId": 12780,
+            "giornoSettimanaId": 8,
+            "oraAperturaMattina": null,
+            "oraChiusuraMattina": null,
+            "oraAperturaPomeriggio": null,
+            "oraChiusuraPomeriggio": null,
+            "flagOrarioContinuato": false,
+            "oraAperturaOrarioContinuato": null,
+            "oraChiusuraOrarioContinuato": null,
+            "flagH24": false,
+            "flagChiusura": false,
+            "flagNonComunicato": false,
+            "flagServito": false,
+            "flagSelf": true
+          }
+        ]
+      },
+      {
         "id": 63648,
         "name": "SPOWER GROUP SRL",
         "brand": "PompeBianche",
@@ -91624,193 +91811,6 @@
           },
           {
             "orariAperturaId": 180715,
-            "giornoSettimanaId": 8,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": false,
-            "oraAperturaOrarioContinuato": null,
-            "oraChiusuraOrarioContinuato": null,
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          }
-        ]
-      },
-      {
-        "id": 41635,
-        "name": "CURRERI CARBURANTI",
-        "brand": "CurreriCarburanti",
-        "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
-        "lat": 37.51030544905536,
-        "lng": 13.066942669110176,
-        "insertDate": "2026-11-07T19:02:09+01:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.989,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.989,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.359,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.359,
-            "isSelf": true
-          }
-        ],
-        "phoneNumber": "092521553",
-        "email": "curreri.carburanti@gmail.com",
-        "company": "CURRERI CARBURANTI S.R.L.",
-        "website": "https://www.facebook.com/currericarburanti/",
-        "services": [
-          {
-            "id": "7",
-            "description": "Servizi per disabili"
-          },
-          {
-            "id": "1",
-            "description": "Food&Beverage"
-          },
-          {
-            "id": "6",
-            "description": "Bancomat"
-          },
-          {
-            "id": "5",
-            "description": "Area bambini"
-          }
-        ],
-        "openingHours": [
-          {
-            "orariAperturaId": 12773,
-            "giornoSettimanaId": 1,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12774,
-            "giornoSettimanaId": 2,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12775,
-            "giornoSettimanaId": 3,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12776,
-            "giornoSettimanaId": 4,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12777,
-            "giornoSettimanaId": 5,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12778,
-            "giornoSettimanaId": 6,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": true,
-            "oraAperturaOrarioContinuato": "07:00",
-            "oraChiusuraOrarioContinuato": "20:00",
-            "flagH24": false,
-            "flagChiusura": false,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12779,
-            "giornoSettimanaId": 7,
-            "oraAperturaMattina": null,
-            "oraChiusuraMattina": null,
-            "oraAperturaPomeriggio": null,
-            "oraChiusuraPomeriggio": null,
-            "flagOrarioContinuato": false,
-            "oraAperturaOrarioContinuato": null,
-            "oraChiusuraOrarioContinuato": null,
-            "flagH24": false,
-            "flagChiusura": true,
-            "flagNonComunicato": false,
-            "flagServito": false,
-            "flagSelf": true
-          },
-          {
-            "orariAperturaId": 12780,
             "giornoSettimanaId": 8,
             "oraAperturaMattina": null,
             "oraChiusuraMattina": null,

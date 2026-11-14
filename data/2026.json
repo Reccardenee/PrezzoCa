@@ -94782,7 +94782,7 @@
     ]
   },
   {
-    "timestamp": "2026-11-14T12:49:10Z",
+    "timestamp": "2026-11-14T21:52:33Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -95292,7 +95292,7 @@
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-11-12T10:01:08+01:00",
+        "insertDate": "2026-11-14T19:25:03+01:00",
         "fuels": [
           {
             "fuelId": 1,

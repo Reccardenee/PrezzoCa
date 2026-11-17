@@ -97734,7 +97734,7 @@
     ]
   },
   {
-    "timestamp": "2026-11-17T01:24:31Z",
+    "timestamp": "2026-11-17T15:19:52Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -98138,6 +98138,53 @@
         "openingHours": {}
       },
       {
+        "id": 20045,
+        "name": "C.DA FOGGIA SCIACCA",
+        "brand": "AgipEni",
+        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
+        "lat": 37.50804259290687,
+        "lng": 13.052275609786989,
+        "insertDate": "2026-11-17T05:57:46+01:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.15,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.94,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.41,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.2,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.849,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
+      {
         "id": 58866,
         "name": "9830 SCIACCA",
         "brand": "AgipEni",
@@ -98191,60 +98238,13 @@
         "openingHours": {}
       },
       {
-        "id": 20045,
-        "name": "C.DA FOGGIA SCIACCA",
-        "brand": "AgipEni",
-        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
-        "lat": 37.50804259290687,
-        "lng": 13.052275609786989,
-        "insertDate": "2026-11-14T05:57:44+01:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.15,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.94,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.41,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.2,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.849,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
         "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-11-15T21:54:49+01:00",
+        "insertDate": "2026-11-17T07:31:20+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -98297,7 +98297,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-11-16T06:59:45+01:00",
+        "insertDate": "2026-11-17T07:02:08+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -98350,7 +98350,7 @@
         "address": "LEONARDO SCIASCIA 1/E - 92019 SCIACCA (AG)",
         "lat": 37.51030544905536,
         "lng": 13.066942669110176,
-        "insertDate": "2026-11-12T12:10:35+01:00",
+        "insertDate": "2026-11-17T10:22:07+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -98537,18 +98537,18 @@
         "address": "LIONI SN - 92019 SCIACCA (AG)",
         "lat": 37.520085988102885,
         "lng": 13.077281713485718,
-        "insertDate": "2026-11-16T13:06:41+01:00",
+        "insertDate": "2026-11-17T07:55:43+01:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.059,
+            "price": 2.089,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.059,
+            "price": 2.089,
             "isSelf": true
           },
           {

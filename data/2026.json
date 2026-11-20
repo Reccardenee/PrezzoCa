@@ -100686,7 +100686,7 @@
     ]
   },
   {
-    "timestamp": "2026-11-20T14:43:37Z",
+    "timestamp": "2026-11-20T23:33:22Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -101436,7 +101436,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-11-20T06:52:13+01:00",
+        "insertDate": "2026-11-20T19:25:06+01:00",
         "fuels": [
           {
             "fuelId": 1,

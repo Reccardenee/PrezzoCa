@@ -100686,7 +100686,7 @@
     ]
   },
   {
-    "timestamp": "2026-11-20T00:07:40Z",
+    "timestamp": "2026-11-20T14:43:37Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -101107,7 +101107,7 @@
         "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
         "lat": 37.516949426501576,
         "lng": 13.07686717661147,
-        "insertDate": "2026-11-18T16:43:29+01:00",
+        "insertDate": "2026-11-20T10:08:30+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -101165,7 +101165,7 @@
         "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
         "lat": 37.50643407494444,
         "lng": 13.112709682209015,
-        "insertDate": "2026-11-18T07:58:53+01:00",
+        "insertDate": "2026-11-20T07:47:41+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -101231,7 +101231,7 @@
         "address": "VIA POMPEI 54 - 92019 SCIACCA (AG)",
         "lat": 37.523664558937085,
         "lng": 13.073832392692566,
-        "insertDate": "2026-11-18T10:39:05+01:00",
+        "insertDate": "2026-11-20T10:57:05+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -101277,60 +101277,13 @@
         "openingHours": {}
       },
       {
-        "id": 20045,
-        "name": "C.DA FOGGIA SCIACCA",
-        "brand": "AgipEni",
-        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
-        "lat": 37.50804259290687,
-        "lng": 13.052275609786989,
-        "insertDate": "2026-11-19T05:57:49+01:00",
-        "fuels": [
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 2.15,
-            "isSelf": false
-          },
-          {
-            "fuelId": 1,
-            "name": "Benzina",
-            "price": 1.94,
-            "isSelf": true
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.41,
-            "isSelf": false
-          },
-          {
-            "fuelId": 2,
-            "name": "Gasolio",
-            "price": 2.2,
-            "isSelf": true
-          },
-          {
-            "fuelId": 4,
-            "name": "GPL",
-            "price": 0.849,
-            "isSelf": false
-          }
-        ],
-        "phoneNumber": "",
-        "email": "",
-        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
-        "website": "",
-        "services": [],
-        "openingHours": {}
-      },
-      {
         "id": 58866,
         "name": "9830 SCIACCA",
         "brand": "AgipEni",
         "address": "Via Figuli - 92019 SCIACCA (AG)",
         "lat": 37.506496,
         "lng": 13.089992,
-        "insertDate": "2026-11-18T14:58:08+01:00",
+        "insertDate": "2026-11-20T14:58:32+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -101377,13 +101330,60 @@
         "openingHours": {}
       },
       {
+        "id": 20045,
+        "name": "C.DA FOGGIA SCIACCA",
+        "brand": "AgipEni",
+        "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
+        "lat": 37.50804259290687,
+        "lng": 13.052275609786989,
+        "insertDate": "2026-11-20T05:57:50+01:00",
+        "fuels": [
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 2.15,
+            "isSelf": false
+          },
+          {
+            "fuelId": 1,
+            "name": "Benzina",
+            "price": 1.94,
+            "isSelf": true
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.41,
+            "isSelf": false
+          },
+          {
+            "fuelId": 2,
+            "name": "Gasolio",
+            "price": 2.2,
+            "isSelf": true
+          },
+          {
+            "fuelId": 4,
+            "name": "GPL",
+            "price": 0.849,
+            "isSelf": false
+          }
+        ],
+        "phoneNumber": "",
+        "email": "",
+        "company": "SERVIZI E GESTIONI ZENIT S.R.L. IN SIGLA - ZENIT S.R.L.",
+        "website": "",
+        "services": [],
+        "openingHours": {}
+      },
+      {
         "id": 42190,
         "name": "Eni",
         "brand": "AgipEni",
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-11-19T19:37:06+01:00",
+        "insertDate": "2026-11-20T07:34:26+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -101436,7 +101436,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-11-18T07:16:37+01:00",
+        "insertDate": "2026-11-20T06:52:13+01:00",
         "fuels": [
           {
             "fuelId": 1,

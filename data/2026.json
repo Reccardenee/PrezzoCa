@@ -105606,7 +105606,7 @@
     ]
   },
   {
-    "timestamp": "2026-11-25T01:48:50Z",
+    "timestamp": "2026-11-25T16:37:28Z",
     "city": "Sciacca",
     "radius": 5,
     "stations": [
@@ -106027,18 +106027,18 @@
         "address": "VIA CAPPUCCINI 153 - 92019 SCIACCA (AG)",
         "lat": 37.516949426501576,
         "lng": 13.07686717661147,
-        "insertDate": "2026-11-24T07:08:02+01:00",
+        "insertDate": "2026-11-25T15:43:13+01:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.149,
+            "price": 2.139,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.939,
+            "price": 1.929,
             "isSelf": true
           },
           {
@@ -106085,18 +106085,18 @@
         "address": "115 dir Sud Occidentale Sicula, Km. 122,400, Agrigento - - 92019 SCIACCA (AG)",
         "lat": 37.50643407494444,
         "lng": 13.112709682209015,
-        "insertDate": "2026-11-20T07:47:41+01:00",
+        "insertDate": "2026-11-25T08:12:37+01:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.149,
+            "price": 2.139,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.939,
+            "price": 1.929,
             "isSelf": true
           },
           {
@@ -106203,7 +106203,7 @@
         "address": "Via Figuli - 92019 SCIACCA (AG)",
         "lat": 37.506496,
         "lng": 13.089992,
-        "insertDate": "2026-11-24T12:09:07+01:00",
+        "insertDate": "2026-11-25T15:22:11+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -106256,18 +106256,18 @@
         "address": "C.DA FOGGIA - 92019 SCIACCA (AG)",
         "lat": 37.50804259290687,
         "lng": 13.052275609786989,
-        "insertDate": "2026-11-24T05:57:53+01:00",
+        "insertDate": "2026-11-25T05:57:54+01:00",
         "fuels": [
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 2.15,
+            "price": 2.13,
             "isSelf": false
           },
           {
             "fuelId": 1,
             "name": "Benzina",
-            "price": 1.94,
+            "price": 1.92,
             "isSelf": true
           },
           {
@@ -106303,7 +106303,7 @@
         "address": "VIA DANTE S.N. - 92019 SCIACCA (AG)",
         "lat": 37.50799022288548,
         "lng": 13.07384071474985,
-        "insertDate": "2026-11-23T07:12:10+01:00",
+        "insertDate": "2026-11-25T07:07:35+01:00",
         "fuels": [
           {
             "fuelId": 1,
@@ -106356,7 +106356,7 @@
         "address": "VIA CAPPUCCINI SNC - 92019 SCIACCA (AG)",
         "lat": 37.51571907201272,
         "lng": 13.077489719049026,
-        "insertDate": "2026-11-23T06:56:13+01:00",
+        "insertDate": "2026-11-25T07:02:00+01:00",
         "fuels": [
           {
             "fuelId": 1,
